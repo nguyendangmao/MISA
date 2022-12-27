@@ -1,0 +1,30 @@
+@import url(button.css);
+@import url(input.css);
+body {
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+}
+@font-face {
+    font-family:GoogleSans-Regular ;
+    src: url(../../asset/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family:GoogleSans-Bold ;
+    src: url(../../asset/font/GoogleSans-Bold.otf);
+}
+@font-face {
+    font-family:GoogleSans-Italic ;
+    src: url(../../asset/font/GoogleSans-Italic.otf);
+}
+.font-bold{
+    font-family:GoogleSans-Bold ;
+}
+.font-italic{
+    font-family:GoogleSans-Italic ;
+}
+
+.m-row{
+    display: flex;
+    margin-top: 20px;
+}
